@@ -2,7 +2,7 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
-        <script src="java.js"></script>
+        <script src="java.js" defer></script>
     </head>
     <body>
         <nav>
@@ -15,7 +15,7 @@
         </nav>
         <div id="chiefsDiv">
             <h2>The Chiefs</h2>
-            <p>Led by Patrick Mahomes (QB) and Travis Kelce (TE).</p>
+            <p>Led by Patrick Mahomes (QB) and Travis Kelce (TE). Defending Super Bowl 2023 champions.</p>
         </div>
         <img class="img1" src="chiefs.png">
         <div id="ninersDiv">
@@ -27,5 +27,14 @@
             <button id="chiefs">Chiefs</button>
             <button id="49rs">49rs</button>
         </div>
+        <form>
+            <labal for="Favorite Team">Who is your favorite team?</labal>
+            <input type="text" id="team" name="Favorite Team">  
+            <button type="button" onclick="favTeam()">Submit</button>
+        </form>
+        <p>Your favorite team is: </p>
+        <p id="fav"></p>
+        <button type="button" onclick="revealWinner()">Reveal Winner</button>
+        <div id="winner"></div>
     </body>
 </html>
