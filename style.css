@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #B3995D;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #E31837;
+    height: 125px;
+    font-size: 35px;
+}
+
+nav div {
+    display: grid;
+    width: 50%;
+    float: left;
+    text-align: left;
+    translate: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFB81C;
+}
+
+img {
+    width: 35%;
+    float: right;
+    padding-right: 5px;
+}
+
+main {
+    font-size: 45px;
+    text-align: center;
+}
+
+div {
+    display: grid;
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #AA0000;
+}
+
+
